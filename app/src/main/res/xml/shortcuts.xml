@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_send_white_24dp"
+        android:shortcutDisabledMessage="@string/send_off"
+        android:shortcutId="shortcut1"
+        android:shortcutLongLabel="@string/send_long_hej"
+        android:shortcutShortLabel="@string/send_hej">
+        <intent
+            android:action="send_to_tomek"
+            android:targetPackage="com.example.mnyga.hej"
+            android:targetClass="com.example.mnyga.hej"/>
+    </shortcut>
+</shortcuts>
